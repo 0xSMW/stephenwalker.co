@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'platform_regularregular';
+    src: url('platform-regular-webfont.eot');
+    src: url('platform-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('platform-regular-webfont.woff') format('woff'),
+         url('platform-regular-webfont.ttf') format('truetype'),
+         url('platform-regular-webfont.svg#platform_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'platformbold';
+    src: url('platform-bold-webfont.eot');
+    src: url('platform-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('platform-bold-webfont.woff') format('woff'),
+         url('platform-bold-webfont.ttf') format('truetype'),
+         url('platform-bold-webfont.svg#platformbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'platformlight';
+    src: url('platform-light-webfont.eot');
+    src: url('platform-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('platform-light-webfont.woff') format('woff'),
+         url('platform-light-webfont.ttf') format('truetype'),
+         url('platform-light-webfont.svg#platformlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'platformmedium';
+    src: url('platform-medium-webfont.eot');
+    src: url('platform-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('platform-medium-webfont.woff') format('woff'),
+         url('platform-medium-webfont.ttf') format('truetype'),
+         url('platform-medium-webfont.svg#platformmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
