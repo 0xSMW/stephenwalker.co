@@ -1,0 +1,240 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+button,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+    outline: 0;
+    background: transparent
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+img {
+    display: block
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+:focus {
+    outline: 0
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+* html .clearfix {
+    height: 1%
+}
+
+*:first-child+html .clearfix {
+    min-height: 1px
+}
+html {
+    height: 100%;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+    font-family: 'Din';
+    src: url('../fonts/DIN.woff') format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+
+body {
+    background: #fff;
+    /*background: -webkit-linear-gradient(top, #fff 0, #eee 100%);
+    background: linear-gradient(to bottom, #fff 0, #eee 100%);*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgba(0, 0, 0, 0.65);
+    font: 400 32px/40px 'Din', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    display: inline-grid;
+    -webkit-transition: all .33s ease-out;
+}
+
+a:hover {
+    color: rgba(0, 51, 251, 1);
+    /*border-bottom: 1px solid rgba(0, 51, 251, 0.5);*/
+    -webkit-transition: all .18s ease-in;
+
+}
+
+a:after {
+  content: '';
+  display: inline-grid;
+  height: 1px;
+  width: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+a:hover:after {
+  width: 100%;
+  background: rgba(0, 51, 251, 1);
+}
+h1,
+h2 {
+    color: rgba(0, 0, 0, 0.90);
+    text-transform: uppercase;
+    margin-bottom: 20px
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 200
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 2px
+}
+
+p {
+    margin: 0 0 20px 0;
+    width: 60%
+}
+
+p a { display:  run-in;;;}
+
+small {
+    font-size: .8em
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+  z-index: 1000;
+  margin-bottom: 200px;
+  padding: 60px;
+  padding-bottom: 0;
+  height: 1000px;
+}
+
+.menu li {
+    float: left; padding-right: 20px;
+}
+.menu {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  font-size: 18px;
+}
+
+.footer {
+  position: fixed;
+  background: rgba(0, 51, 251, 1);
+  font-size: 18px;
+  height: 200px;
+  width: 100%;
+  z-index: -1;
+  bottom: 0;
+  left:0;
+
+}
+
+.footer-container{
+  position: relative;
+  height: 100%;
+  bottom: 0;
+  padding: 10px 0;
+
+}
+.footer-container div {
+  display: inline-grid;
+  position: absolute;
+  bottom: 80px;
+  height: 100%;
+  height: 200px;
+}
+.footer .right {
+  float: right;
+}
